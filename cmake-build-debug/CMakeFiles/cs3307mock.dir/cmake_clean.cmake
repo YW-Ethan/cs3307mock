@@ -6,7 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cs3307mock.dir/alarm.cpp.obj"
   "CMakeFiles/cs3307mock.dir/web_module.cpp.obj"
   "CMakeFiles/cs3307mock.dir/room.cpp.obj"
-  "CMakeFiles/cs3307mock.dir/test3.cpp.obj"
+  "CMakeFiles/cs3307mock.dir/test2.cpp.obj"
   "cs3307mock.pdb"
   "cs3307mock.exe"
   "cs3307mock.exe.manifest"

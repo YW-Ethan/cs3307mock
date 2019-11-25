@@ -24,8 +24,8 @@ bool light::getLightState() {
 
 std::string light::lightToString() {
     if(this->lightState){
-        return "On";
+        return " ON ";
     }else{
-        return "Off";
+        return " OFF ";
     }
 }

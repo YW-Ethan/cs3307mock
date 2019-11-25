@@ -19,6 +19,7 @@ public:
     void update_roomNum(int);
     bool get_autoSwitch();
     int get_roomNum();
+    std::string lightModeToStirng();
 };
 
 

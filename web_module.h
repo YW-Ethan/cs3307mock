@@ -19,6 +19,7 @@ private:
     std::vector<room> roomLights;
     void setRooms(int);
     static void* monitor(void*);
+    static void* openAlarm(void*);
 public:
     explicit web_module(int);
     void setAlarmMode(bool);
@@ -28,9 +29,7 @@ public:
     void lightAutoOff();
     void manualSetLight(int,bool);
     void launchAlarm();
-
-protected:
-    static void* openAlarm(void*);
+    void getAllAppliances();
 };
 
 

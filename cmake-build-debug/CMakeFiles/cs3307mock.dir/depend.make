@@ -27,14 +27,14 @@ CMakeFiles/cs3307mock.dir/roomLight.cpp.obj: ../roomLight.h
 CMakeFiles/cs3307mock.dir/sensor.cpp.obj: ../sensor.cpp
 CMakeFiles/cs3307mock.dir/sensor.cpp.obj: ../sensor.h
 
-CMakeFiles/cs3307mock.dir/test3.cpp.obj: ../alarm.h
-CMakeFiles/cs3307mock.dir/test3.cpp.obj: ../alarmLight.h
-CMakeFiles/cs3307mock.dir/test3.cpp.obj: ../light.h
-CMakeFiles/cs3307mock.dir/test3.cpp.obj: ../room.h
-CMakeFiles/cs3307mock.dir/test3.cpp.obj: ../roomLight.h
-CMakeFiles/cs3307mock.dir/test3.cpp.obj: ../sensor.h
-CMakeFiles/cs3307mock.dir/test3.cpp.obj: ../test3.cpp
-CMakeFiles/cs3307mock.dir/test3.cpp.obj: ../web_module.h
+CMakeFiles/cs3307mock.dir/test2.cpp.obj: ../alarm.h
+CMakeFiles/cs3307mock.dir/test2.cpp.obj: ../alarmLight.h
+CMakeFiles/cs3307mock.dir/test2.cpp.obj: ../light.h
+CMakeFiles/cs3307mock.dir/test2.cpp.obj: ../room.h
+CMakeFiles/cs3307mock.dir/test2.cpp.obj: ../roomLight.h
+CMakeFiles/cs3307mock.dir/test2.cpp.obj: ../sensor.h
+CMakeFiles/cs3307mock.dir/test2.cpp.obj: ../test2.cpp
+CMakeFiles/cs3307mock.dir/test2.cpp.obj: ../web_module.h
 
 CMakeFiles/cs3307mock.dir/web_module.cpp.obj: ../alarm.h
 CMakeFiles/cs3307mock.dir/web_module.cpp.obj: ../alarmLight.h

@@ -73,6 +73,7 @@ void* web_module::openAlarm(void* __this) {
             sign = 0;
         }
     }
+    return nullptr;
 }
 
 void web_module::setAlarmMode(bool m) {
@@ -135,4 +136,16 @@ void * web_module::monitor(void* __this) {
             decision = false;
         }
     }
+    return nullptr;
+}
+
+
+void web_module::getAllAppliances() {
+    for(auto i : this->roomLights){
+        cout<<"Room number: "<<i.light->get_roomNum()<<" ,Current light state is : "<<i.light->lightToString()
+        <<", Light mode is : "<<i.light->lightModeToStirng()<<endl;
+    }
+    cout<<"Current Alarm color is : " <<this->alm->getCurrentStatus()<<" and status : "
+    <<this->alm->getAlarmLight()->lightToString()<<endl;
+    cout<<"Last alarm message is: "<<this->alarmMsg<<endl;
 }

@@ -10,7 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/WYC/CLionProjects/cs3307mock/room.cpp" "C:/Users/WYC/CLionProjects/cs3307mock/cmake-build-debug/CMakeFiles/cs3307mock.dir/room.cpp.obj"
   "C:/Users/WYC/CLionProjects/cs3307mock/roomLight.cpp" "C:/Users/WYC/CLionProjects/cs3307mock/cmake-build-debug/CMakeFiles/cs3307mock.dir/roomLight.cpp.obj"
   "C:/Users/WYC/CLionProjects/cs3307mock/sensor.cpp" "C:/Users/WYC/CLionProjects/cs3307mock/cmake-build-debug/CMakeFiles/cs3307mock.dir/sensor.cpp.obj"
-  "C:/Users/WYC/CLionProjects/cs3307mock/test3.cpp" "C:/Users/WYC/CLionProjects/cs3307mock/cmake-build-debug/CMakeFiles/cs3307mock.dir/test3.cpp.obj"
+  "C:/Users/WYC/CLionProjects/cs3307mock/test2.cpp" "C:/Users/WYC/CLionProjects/cs3307mock/cmake-build-debug/CMakeFiles/cs3307mock.dir/test2.cpp.obj"
   "C:/Users/WYC/CLionProjects/cs3307mock/web_module.cpp" "C:/Users/WYC/CLionProjects/cs3307mock/cmake-build-debug/CMakeFiles/cs3307mock.dir/web_module.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

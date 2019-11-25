@@ -284,32 +284,32 @@ sensor.cpp.s:
 	$(MAKE) -f CMakeFiles\cs3307mock.dir\build.make CMakeFiles/cs3307mock.dir/sensor.cpp.s
 .PHONY : sensor.cpp.s
 
-test3.obj: test3.cpp.obj
+test2.obj: test2.cpp.obj
 
-.PHONY : test3.obj
+.PHONY : test2.obj
 
 # target to build an object file
-test3.cpp.obj:
-	$(MAKE) -f CMakeFiles\cs3307mock.dir\build.make CMakeFiles/cs3307mock.dir/test3.cpp.obj
-.PHONY : test3.cpp.obj
+test2.cpp.obj:
+	$(MAKE) -f CMakeFiles\cs3307mock.dir\build.make CMakeFiles/cs3307mock.dir/test2.cpp.obj
+.PHONY : test2.cpp.obj
 
-test3.i: test3.cpp.i
+test2.i: test2.cpp.i
 
-.PHONY : test3.i
+.PHONY : test2.i
 
 # target to preprocess a source file
-test3.cpp.i:
-	$(MAKE) -f CMakeFiles\cs3307mock.dir\build.make CMakeFiles/cs3307mock.dir/test3.cpp.i
-.PHONY : test3.cpp.i
+test2.cpp.i:
+	$(MAKE) -f CMakeFiles\cs3307mock.dir\build.make CMakeFiles/cs3307mock.dir/test2.cpp.i
+.PHONY : test2.cpp.i
 
-test3.s: test3.cpp.s
+test2.s: test2.cpp.s
 
-.PHONY : test3.s
+.PHONY : test2.s
 
 # target to generate assembly for a file
-test3.cpp.s:
-	$(MAKE) -f CMakeFiles\cs3307mock.dir\build.make CMakeFiles/cs3307mock.dir/test3.cpp.s
-.PHONY : test3.cpp.s
+test2.cpp.s:
+	$(MAKE) -f CMakeFiles\cs3307mock.dir\build.make CMakeFiles/cs3307mock.dir/test2.cpp.s
+.PHONY : test2.cpp.s
 
 web_module.obj: web_module.cpp.obj
 
@@ -365,9 +365,9 @@ help:
 	@echo ... sensor.obj
 	@echo ... sensor.i
 	@echo ... sensor.s
-	@echo ... test3.obj
-	@echo ... test3.i
-	@echo ... test3.s
+	@echo ... test2.obj
+	@echo ... test2.i
+	@echo ... test2.s
 	@echo ... web_module.obj
 	@echo ... web_module.i
 	@echo ... web_module.s

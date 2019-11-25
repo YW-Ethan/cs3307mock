@@ -147,18 +147,18 @@ CMakeFiles/cs3307mock.dir/room.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs3307mock.dir/room.cpp.s"
 	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\WYC\CLionProjects\cs3307mock\room.cpp -o CMakeFiles\cs3307mock.dir\room.cpp.s
 
-CMakeFiles/cs3307mock.dir/test3.cpp.obj: CMakeFiles/cs3307mock.dir/flags.make
-CMakeFiles/cs3307mock.dir/test3.cpp.obj: ../test3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\WYC\CLionProjects\cs3307mock\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cs3307mock.dir/test3.cpp.obj"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cs3307mock.dir\test3.cpp.obj -c C:\Users\WYC\CLionProjects\cs3307mock\test3.cpp
+CMakeFiles/cs3307mock.dir/test2.cpp.obj: CMakeFiles/cs3307mock.dir/flags.make
+CMakeFiles/cs3307mock.dir/test2.cpp.obj: ../test2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\WYC\CLionProjects\cs3307mock\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cs3307mock.dir/test2.cpp.obj"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cs3307mock.dir\test2.cpp.obj -c C:\Users\WYC\CLionProjects\cs3307mock\test2.cpp
 
-CMakeFiles/cs3307mock.dir/test3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs3307mock.dir/test3.cpp.i"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\WYC\CLionProjects\cs3307mock\test3.cpp > CMakeFiles\cs3307mock.dir\test3.cpp.i
+CMakeFiles/cs3307mock.dir/test2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs3307mock.dir/test2.cpp.i"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\WYC\CLionProjects\cs3307mock\test2.cpp > CMakeFiles\cs3307mock.dir\test2.cpp.i
 
-CMakeFiles/cs3307mock.dir/test3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs3307mock.dir/test3.cpp.s"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\WYC\CLionProjects\cs3307mock\test3.cpp -o CMakeFiles\cs3307mock.dir\test3.cpp.s
+CMakeFiles/cs3307mock.dir/test2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs3307mock.dir/test2.cpp.s"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\WYC\CLionProjects\cs3307mock\test2.cpp -o CMakeFiles\cs3307mock.dir\test2.cpp.s
 
 # Object files for target cs3307mock
 cs3307mock_OBJECTS = \
@@ -169,7 +169,7 @@ cs3307mock_OBJECTS = \
 "CMakeFiles/cs3307mock.dir/alarm.cpp.obj" \
 "CMakeFiles/cs3307mock.dir/web_module.cpp.obj" \
 "CMakeFiles/cs3307mock.dir/room.cpp.obj" \
-"CMakeFiles/cs3307mock.dir/test3.cpp.obj"
+"CMakeFiles/cs3307mock.dir/test2.cpp.obj"
 
 # External object files for target cs3307mock
 cs3307mock_EXTERNAL_OBJECTS =
@@ -181,7 +181,7 @@ cs3307mock.exe: CMakeFiles/cs3307mock.dir/roomLight.cpp.obj
 cs3307mock.exe: CMakeFiles/cs3307mock.dir/alarm.cpp.obj
 cs3307mock.exe: CMakeFiles/cs3307mock.dir/web_module.cpp.obj
 cs3307mock.exe: CMakeFiles/cs3307mock.dir/room.cpp.obj
-cs3307mock.exe: CMakeFiles/cs3307mock.dir/test3.cpp.obj
+cs3307mock.exe: CMakeFiles/cs3307mock.dir/test2.cpp.obj
 cs3307mock.exe: CMakeFiles/cs3307mock.dir/build.make
 cs3307mock.exe: CMakeFiles/cs3307mock.dir/linklibs.rsp
 cs3307mock.exe: CMakeFiles/cs3307mock.dir/objects1.rsp

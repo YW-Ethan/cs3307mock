@@ -26,3 +26,11 @@ int roomLight::get_roomNum() {
     return this->roomNum;
 }
 
+std::string roomLight::lightModeToStirng() {
+    if(this->get_autoSwitch()){
+        return " AUTO ";
+    }else{
+        return " MANUAL ";
+    }
+}
+

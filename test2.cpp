@@ -9,9 +9,9 @@
 extern int sign;
 extern std::string status;
 
-auto* home = new web_module(5);
-
 using namespace std;
+
+web_module* home;
 
 void signalHandler( int signum )
 {
@@ -20,14 +20,16 @@ void signalHandler( int signum )
 
 }
 int main(){
+    home = new web_module(5);
     int timer = 0;
     status = "null";
     home->launchAlarm();
     signal(SIGINT, signalHandler);
     while (status!="Quit"){
         cin>>sign;
+        home->getAllAppliances();
         timer++;
-        if(timer == 5){
+        if(timer == 3){
             raise(SIGINT);
         }
     }
