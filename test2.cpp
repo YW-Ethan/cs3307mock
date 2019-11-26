@@ -27,7 +27,6 @@ int main(){
     signal(SIGINT, signalHandler);
     while (status!="Quit"){
         cin>>sign;
-        home->getAllAppliances();
         timer++;
         if(timer == 3){
             raise(SIGINT);

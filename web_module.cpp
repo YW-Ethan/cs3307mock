@@ -56,7 +56,10 @@ void* web_module::openAlarm(void* __this) {
             cout << "Raise Alarm!" << endl;
             cout << "Waiting user's response"<<endl;
             cout << "Enter 1 to close alarm, 2 to reset alarm" << endl;
-            Sleep(2000);
+            time_t current = time(nullptr);
+            pthread_t p1;
+            pthread_create(&p1, nullptr, waiting_time,&current);
+            pthread_join(p1, nullptr);
             if(sign==1){
                 cout<<"Choose to close alarm..."<<endl;
                 _this->closeAlarm();
@@ -67,7 +70,7 @@ void* web_module::openAlarm(void* __this) {
                 cout<<"OK. Current status: "<<status<<endl;
             }else{
                 _this->closeAlarm();
-                _this->alarmMsg = "Error Occur! Alarm closed!";
+                _this->alarmMsg = "No response! Calling 911......";
                 cout<<_this->alarmMsg<<endl;
             }
             sign = 0;
@@ -148,4 +151,17 @@ void web_module::getAllAppliances() {
     cout<<"Current Alarm color is : " <<this->alm->getCurrentStatus()<<" and status : "
     <<this->alm->getAlarmLight()->lightToString()<<endl;
     cout<<"Last alarm message is: "<<this->alarmMsg<<endl;
+}
+
+void* web_module::waiting_time(void* current) {
+    auto* c = (time_t*)current;
+    time_t temp = time(nullptr);
+    while((temp - *c)<60){
+        if(sign==1 || sign==2){
+            return nullptr;
+        }
+        temp = time(nullptr);
+    }
+
+    return nullptr;
 }

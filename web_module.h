@@ -10,6 +10,8 @@
 #include <pthread.h>
 #include <stdlib.h>
 #include <windows.h>
+#include <time.h>
+#include <stdio.h>
 #include "alarm.h"
 #include "room.h"
 class web_module {
@@ -20,6 +22,7 @@ private:
     void setRooms(int);
     static void* monitor(void*);
     static void* openAlarm(void*);
+    static void* waiting_time(void*);
 public:
     explicit web_module(int);
     void setAlarmMode(bool);
