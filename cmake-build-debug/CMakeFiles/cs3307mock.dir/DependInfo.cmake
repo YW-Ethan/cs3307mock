@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/WYC/CLionProjects/cs3307mock/alarm.cpp" "C:/Users/WYC/CLionProjects/cs3307mock/cmake-build-debug/CMakeFiles/cs3307mock.dir/alarm.cpp.obj"
-  "C:/Users/WYC/CLionProjects/cs3307mock/alarmLight.cpp" "C:/Users/WYC/CLionProjects/cs3307mock/cmake-build-debug/CMakeFiles/cs3307mock.dir/alarmLight.cpp.obj"
-  "C:/Users/WYC/CLionProjects/cs3307mock/light.cpp" "C:/Users/WYC/CLionProjects/cs3307mock/cmake-build-debug/CMakeFiles/cs3307mock.dir/light.cpp.obj"
-  "C:/Users/WYC/CLionProjects/cs3307mock/room.cpp" "C:/Users/WYC/CLionProjects/cs3307mock/cmake-build-debug/CMakeFiles/cs3307mock.dir/room.cpp.obj"
-  "C:/Users/WYC/CLionProjects/cs3307mock/roomLight.cpp" "C:/Users/WYC/CLionProjects/cs3307mock/cmake-build-debug/CMakeFiles/cs3307mock.dir/roomLight.cpp.obj"
-  "C:/Users/WYC/CLionProjects/cs3307mock/sensor.cpp" "C:/Users/WYC/CLionProjects/cs3307mock/cmake-build-debug/CMakeFiles/cs3307mock.dir/sensor.cpp.obj"
-  "C:/Users/WYC/CLionProjects/cs3307mock/test2.cpp" "C:/Users/WYC/CLionProjects/cs3307mock/cmake-build-debug/CMakeFiles/cs3307mock.dir/test2.cpp.obj"
-  "C:/Users/WYC/CLionProjects/cs3307mock/web_module.cpp" "C:/Users/WYC/CLionProjects/cs3307mock/cmake-build-debug/CMakeFiles/cs3307mock.dir/web_module.cpp.obj"
+  "/home/pi/CLionProjects/cs3307mock/alarm.cpp" "/home/pi/CLionProjects/cs3307mock/cmake-build-debug/CMakeFiles/cs3307mock.dir/alarm.cpp.o"
+  "/home/pi/CLionProjects/cs3307mock/alarmLight.cpp" "/home/pi/CLionProjects/cs3307mock/cmake-build-debug/CMakeFiles/cs3307mock.dir/alarmLight.cpp.o"
+  "/home/pi/CLionProjects/cs3307mock/light.cpp" "/home/pi/CLionProjects/cs3307mock/cmake-build-debug/CMakeFiles/cs3307mock.dir/light.cpp.o"
+  "/home/pi/CLionProjects/cs3307mock/room.cpp" "/home/pi/CLionProjects/cs3307mock/cmake-build-debug/CMakeFiles/cs3307mock.dir/room.cpp.o"
+  "/home/pi/CLionProjects/cs3307mock/roomLight.cpp" "/home/pi/CLionProjects/cs3307mock/cmake-build-debug/CMakeFiles/cs3307mock.dir/roomLight.cpp.o"
+  "/home/pi/CLionProjects/cs3307mock/sensor.cpp" "/home/pi/CLionProjects/cs3307mock/cmake-build-debug/CMakeFiles/cs3307mock.dir/sensor.cpp.o"
+  "/home/pi/CLionProjects/cs3307mock/test3.cpp" "/home/pi/CLionProjects/cs3307mock/cmake-build-debug/CMakeFiles/cs3307mock.dir/test3.cpp.o"
+  "/home/pi/CLionProjects/cs3307mock/web_module.cpp" "/home/pi/CLionProjects/cs3307mock/cmake-build-debug/CMakeFiles/cs3307mock.dir/web_module.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

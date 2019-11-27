@@ -15,7 +15,7 @@ int sign = 0;
  */
 web_module::web_module(int total_rooms) {
     this->alarmMsg = "";
-    this->alm = new alarm();
+    this->alm = new class alarm();
     setRooms(total_rooms);
 }
 
@@ -39,7 +39,7 @@ void* web_module::openAlarm(void* __this) {
             _this->alarmMsg = "Someone comes back!";
             cout << _this->alarmMsg << endl;
             cout << _this->alm->getCurrentStatus()<<" : "<<_this->alm->getAlarmLight()->lightToString()<<endl;
-            Sleep(2000);
+            sleep(1);
             _this->alm->getAlarmLight()->turnOffLight();
             cout << _this->alm->getCurrentStatus()<<" : "<<_this->alm->getAlarmLight()->lightToString()<<endl;
             _this->alm->getAlarmLight()->setColor(0);
@@ -156,7 +156,7 @@ void web_module::getAllAppliances() {
 void* web_module::waiting_time(void* current) {
     auto* c = (time_t*)current;
     time_t temp = time(nullptr);
-    while((temp - *c)<60){
+    while((temp - *c)<30){
         if(sign==1 || sign==2){
             return nullptr;
         }

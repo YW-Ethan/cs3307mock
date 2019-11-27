@@ -21,6 +21,7 @@ int main(){
     home->launchAlarm();
     while (true){
         cin>>sign;
+        home->getAllAppliances();
     }
 
 }

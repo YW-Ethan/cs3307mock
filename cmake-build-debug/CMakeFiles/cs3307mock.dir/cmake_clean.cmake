@@ -1,16 +1,14 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cs3307mock.dir/sensor.cpp.obj"
-  "CMakeFiles/cs3307mock.dir/light.cpp.obj"
-  "CMakeFiles/cs3307mock.dir/alarmLight.cpp.obj"
-  "CMakeFiles/cs3307mock.dir/roomLight.cpp.obj"
-  "CMakeFiles/cs3307mock.dir/alarm.cpp.obj"
-  "CMakeFiles/cs3307mock.dir/web_module.cpp.obj"
-  "CMakeFiles/cs3307mock.dir/room.cpp.obj"
-  "CMakeFiles/cs3307mock.dir/test2.cpp.obj"
+  "CMakeFiles/cs3307mock.dir/sensor.cpp.o"
+  "CMakeFiles/cs3307mock.dir/light.cpp.o"
+  "CMakeFiles/cs3307mock.dir/alarmLight.cpp.o"
+  "CMakeFiles/cs3307mock.dir/roomLight.cpp.o"
+  "CMakeFiles/cs3307mock.dir/alarm.cpp.o"
+  "CMakeFiles/cs3307mock.dir/web_module.cpp.o"
+  "CMakeFiles/cs3307mock.dir/room.cpp.o"
+  "CMakeFiles/cs3307mock.dir/test3.cpp.o"
   "cs3307mock.pdb"
-  "cs3307mock.exe"
-  "cs3307mock.exe.manifest"
-  "libcs3307mock.dll.a"
+  "cs3307mock"
 )
 
 # Per-language clean rules from dependency scanning.

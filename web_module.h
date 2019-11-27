@@ -9,7 +9,7 @@
 #include <vector>
 #include <pthread.h>
 #include <stdlib.h>
-#include <windows.h>
+#include <unistd.h>
 #include <time.h>
 #include <stdio.h>
 #include "alarm.h"
@@ -17,7 +17,7 @@
 class web_module {
 private:
     std::string alarmMsg;
-    alarm* alm;
+    class alarm* alm;
     std::vector<room> roomLights;
     void setRooms(int);
     static void* monitor(void*);

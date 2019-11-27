@@ -11,10 +11,10 @@ using namespace std;
 int main(){
     auto* home = new web_module(5);
     home->lightAutoOn();
-    Sleep(2000);
+    sleep(2);
     home->getAllAppliances();
     home->lightAutoOff();
-    Sleep(1000);
+    sleep(2);
     home->getAllAppliances();
     return 0;
 

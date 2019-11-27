@@ -21,16 +21,11 @@ void signalHandler( int signum )
 }
 int main(){
     home = new web_module(5);
-    int timer = 0;
     status = "null";
     home->launchAlarm();
     signal(SIGINT, signalHandler);
     while (status!="Quit"){
         cin>>sign;
-        timer++;
-        if(timer == 3){
-            raise(SIGINT);
-        }
     }
 
     return 0;
